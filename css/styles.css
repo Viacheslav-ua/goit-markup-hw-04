@@ -498,6 +498,7 @@ body {
 
 .project-text {
   padding: 0 24px;
+  margin-top: 20px;
 }
 
 .project-name {
@@ -506,17 +507,21 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--basic-text);
+  margin-bottom: 4px;
+  
 }
 
 .project-caption {
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-text);
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .project-link {
   display: block;
+  padding-bottom: 20px;
+
 }
 
 .project-link:hover,
